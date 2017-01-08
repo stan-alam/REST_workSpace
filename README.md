@@ -31,7 +31,7 @@ REST-RESTful workspace
 # RESTful web services are web applications built upon the REST architecture.
    They:
    expose resource ( data and functionality ) through the web URIs
-   use the four main HTTP methods - ** CRUD ** create, read, update and delete resources.
+   use the four main HTTP methods - **CRUD** create, read, update and delete resources.
    RESTful web services typically map the four main HTTP methods to CRUD.
 
 # GET : retrieve a resource
