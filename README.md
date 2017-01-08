@@ -24,6 +24,21 @@ REST-RESTful workspace
 
 -----------------------------------------------------------------------------------------------------------------------------
 
+# RESTful:
+
+   In REST, the software application architecture modeled after the way data is represented, accessed and modified on the web is an architecture in which data and functionality are considered resources, and these resources are accessed using ** URI**'s ** Uniform Resource Identifier **, typically links on the web. The REST architecture  ** is fundamentally a client-server architecture, and is designed to use a stateless communication protocol, typically HTTP. In REST, clients and servers exchange representations of resources using a standardized interface and protocol. These principles encourage REST applications to be simple, lightweight, and have high performance.
+
+# RESTful web services are web applications built upon the REST architecture.
+   They:
+   expose resource ( data and functionality ) through the web URIs
+   use the four main HTTP methods - ** CRUD ** create, read, update and delete resources.
+   RESTful web services typically map the four main HTTP methods to CRUD.
+
+# GET : retrieve a resource
+# POST: Create a resource
+# PUT:  Update a resource
+# DELETE: delete a resource
+
 
 
 
