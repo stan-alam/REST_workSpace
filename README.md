@@ -26,7 +26,7 @@ REST-RESTful workspace
 
 # RESTful:
 
-   In REST, the software application architecture modeled after the way data is represented, accessed and modified on the web is an architecture in which data and functionality are considered resources, and these resources are accessed using URI's Uniform Resource Identifier, typically links on the web. The REST architecture ** is fundamentally a client-server architecture **, and is designed to use a stateless communication protocol, typically HTTP. In REST, clients and servers exchange representations of resources using a standardized interface and protocol. These principles encourage REST applications to be simple, lightweight, and have high performance.
+   In REST, the software application architecture modeled after the way data is represented, accessed and modified on the web is an architecture in which data and functionality are considered resources, and these resources are accessed using URI's Uniform Resource Identifier, typically links on the web. The REST architecture **is fundamentally a client-server architecture:**, and is designed to use a stateless communication protocol, typically HTTP. In REST, clients and servers exchange representations of resources using a standardized interface and protocol. These principles encourage REST applications to be simple, lightweight, and have high performance.
 
 # RESTful web services are web applications built upon the REST architecture.
    They:
