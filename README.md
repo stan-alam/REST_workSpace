@@ -41,4 +41,40 @@ REST-RESTful workspace
 
 
 
+# Fundamentals of RESTful APIS
+
+	* Performance: The communication style proposed by REST is meant to be efficient and simple, allowing a performance
+	boost on all systems that adopts it.
+
+	* Scalability of Component interaction: Any distributed system should be able to handle this aspect well enough,
+	and simple interaction proposed by REST greatly allows for this.
+
+	* Simplicity of interface: A simple interface allows for simpler interaction between systems, which in turn can grant benefits as mentioned.
+
+	* Modifiability of components: The distributed nature of the system, and the separation of concerns proposed by REST allows for components to be modified independently of each other at a minimum cost and risk.
+
+	* Reliability: The stateless constraint proposed by REST allows for the easier recovery of a system failure.
+
+	* Visibility: The stateless constraint proposed has the added full state of said requests: A component-centric design allows to make systems fault tolerant.
+
+
+**REST is not suggested to use when you need to enforce a strict contract between client and server and when performing transactions that involve multiple calls**.
+
+# What is REST?
+
+REST: coined by Roy Fielding to describe a pattern for implementing networked systems.REST is an architectural style for designing distributed systems. It's not a standard, but rather a set of constraints. It's not tied to HTTP, but commonly associated with it.
+
+**REST basics**
+
+Unlike SOAP and XML-RPC, REST does not require a new message format. The HTTP API is CRUD, Create, Retrieve, DELETE.
+
+		GET = "give me some info ( Retrieve ) "
+
+		POST = "Here's some update info" ( Update ) "
+
+		PUT = "Here's some new info ( CREATE ) "
+
+		DELETE = "delete some info " (DELETE)
+
+		PATCH = " The HTTP method PATCH can "
 
