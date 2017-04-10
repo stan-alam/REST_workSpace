@@ -43,19 +43,24 @@ REST-RESTful workspace
 
 # Fundamentals of RESTful APIS
 
-	* Performance: The communication style proposed by REST is meant to be efficient and simple, allowing a performance
-	boost on all systems that adopts it.
+	* Performance: The communication style proposed by REST is meant to be efficient and simple,
+	 allowing a performance boost on all systems that adopts it.
 
-	* Scalability of Component interaction: Any distributed system should be able to handle this aspect well enough,
-	and simple interaction proposed by REST greatly allows for this.
+	* Scalability of Component interaction: Any distributed system should be able to handle this
+	aspect well enough, and simple interaction proposed by REST greatly allows for this.
 
-	* Simplicity of interface: A simple interface allows for simpler interaction between systems, which in turn can grant benefits as mentioned.
+	* Simplicity of interface: A simple interface allows for simpler interaction between systems,
+	which in turn can grant benefits as mentioned.
 
-	* Modifiability of components: The distributed nature of the system, and the separation of concerns proposed by REST allows for components to be modified independently of each other at a minimum cost and risk.
+	* Modifiability of components: The distributed nature of the system, and the separation of
+	concerns proposed by REST allows for components to be modified independently of each other
+	at a minimum cost and risk.
 
-	* Reliability: The stateless constraint proposed by REST allows for the easier recovery of a system failure.
+	* Reliability: The stateless constraint proposed by REST allows for the easier recovery of
+	a system failure.
 
-	* Visibility: The stateless constraint proposed has the added full state of said requests: A component-centric design allows to make systems fault tolerant.
+	* Visibility: The stateless constraint proposed has the added full state of said requests:
+	A component-centric design allows to make systems fault tolerant.
 
 
 **REST is not suggested to use when you need to enforce a strict contract between client and server and when performing transactions that involve multiple calls**.
