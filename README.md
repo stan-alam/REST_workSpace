@@ -81,5 +81,78 @@ Unlike SOAP and XML-RPC, REST does not require a new message format. The HTTP AP
 
 		DELETE = "delete some info " (DELETE)
 
-		PATCH = " The HTTP method PATCH can "
+Oh wait... there's more!
+
+
+		PATCH = " The HTTP method PATCH can be used to update
+		partial resources, such as when you need to update one
+		field of the resource, PUTing a complete representation
+		might be cumbersome i.e. takes more bandwidth. "
+
+		OPTIONS = "This method allows the client to determine the
+		options and/or requirements associated with a resource, or
+		the capabilities of a server, without implying a resource
+		action or initiating a resource retrieval. "
+
+
+# REST is a resource based architecture!
+
+Each resource is identified by a URL. Every resource should support the HTTP common operations, and REST allows the
+that resource to have different representations, e.g. text, xml, json..etc. The rest client can ask for specific representation via the HTTP protocol, i.e. Content-Negotiation.
+
+**Resource** -- Conceptual target of a hypertext reference e.g. customer/order
+
+**Resource Identifier** -- A uniform resource locater (URL) or uniform resource name (URN) identifiying a specific resource, e.g. zttp://restisthebest/consoles/nintendo/games/motor_city_patrol
+
+**Representation** -- The resource content - JSON Message, HTML Document, JPEG image
+
+**Representation Metadata** -- Information describing how to process the representation, e.g. media type, last-modified time
+
+**Control Data** -- Information describing how to optimize response processing e.g. if-modified-since, cache-control-expiry
+
+
+**Resources**
+
+A REST resource to GET a list of nintendo games
+
+zttp://restisthebest/consoles/nintendo/games
+
+A REST resource to GET details of nintendo games
+zttp://restisthebest/consoles/nintendo/games/blaster_master
+
+
+##Representations
+
+XML representation of a response - GET in JSON
+
+```javascript
+
+{
+   "Game":{
+      "id":"1234",
+      "name":"Super Mario Brothers 3"
+   }
+}
+
+
+```
+## Content Negotiation
+
+HTTP natively supports a mechanism based on headers to tell the server about the content you expect and you're
+able to handle. Based on these "hints", the server is responsible for returning the corresponding content in
+the correct format.
+
+
+	Client       --JSON format-> Server
+
+	Only supports
+	JSON format    <--406-------only supports XML format
+
+Client sends a JSON request to the server, the server in this case can only accept XML format
+THe server rejects the JSON payload and returns a 406 in the status code.
+406 is not acceptable. According the accept headers send in the request.
+
+Accept/Content-Type : JSON...etc
+
+
 
