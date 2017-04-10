@@ -119,11 +119,11 @@ zttp://restisthebest/consoles/nintendo/games
 
 A REST resource to GET details of nintendo games
 zttp://restisthebest/consoles/nintendo/games/blaster_master
-
+#
 
 ##Representations
 
-XML representation of a response - GET in JSON
+JSON representation of a response - GET in JSON
 
 ```javascript
 
