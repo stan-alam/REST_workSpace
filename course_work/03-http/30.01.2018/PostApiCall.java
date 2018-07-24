@@ -61,7 +61,7 @@ public class PostApiCall {
    System.out.println("This is the return Body " + res.body().toString());
    // Assert.assertEquals(res.body(), "hello");
    System.out.println("Test Pass");
-   String JWTresults = res.jsonPath().getString("authorization_Token");
+   String JWT = res.jsonPath().getString("authorization_Token");
    return JWT;
 
   }
