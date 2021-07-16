@@ -209,16 +209,15 @@ Validation errors should also be provided within the response body.
 The JSON or XML should provide details of any validation errors if a 400 or 422 status code is returned.  Following is an example error:
 
 ```json
-  { "errors" : [
-      {
-        "type": "validation",
-        "resource": {
-                      "id": 25
-                    },
-        "message": "districtDivision value exceeds two character limit"
-      }
-    ]
-  }
+{
+	"errors": [{
+		"type": "validation",
+		"resource": {
+			"id": 25
+		},
+		"message": "districtDivision value exceeds two character limit"
+	}]
+}
 ```
 
 The specific structure and format of detailed error information is not standardized, and this strategy allows for different representations since various frameworks handle such responses differently.
