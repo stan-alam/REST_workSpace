@@ -88,6 +88,10 @@
   <img src="https://github.com/stan-alam/REST_workSpace/blob/develop/API_Pttrns/images/01/APIpattrns%20-%20page%2022.png" width="80%" height="80%">
 </a>
 
+```js
+//cb 11.A
+```
+
 <a>
   <img src="https://github.com/stan-alam/REST_workSpace/blob/develop/API_Pttrns/images/01/APIpattrns%20-%20page%2023.png" width="80%" height="80%">
 </a>
