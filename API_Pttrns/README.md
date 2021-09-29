@@ -91,11 +91,13 @@
 ```js
 //cb 11.A
 ```
-
 <a>
   <img src="https://github.com/stan-alam/REST_workSpace/blob/develop/API_Pttrns/images/01/APIpattrns%20-%20page%2023.png" width="80%" height="80%">
 </a>
 
+```js
+//cb 12.A
+```
 <a>
   <img src="https://github.com/stan-alam/REST_workSpace/blob/develop/API_Pttrns/images/01/APIpattrns%20-%20page%2024.png" width="80%" height="80%">
 </a>
@@ -106,4 +108,18 @@
 
 <a>
   <img src="https://github.com/stan-alam/REST_workSpace/blob/develop/API_Pttrns/images/01/APIpattrns%20-%20page%2026.png" width="80%" height="80%">
+</a>
+
+# 02
+
+<a>
+  <img src="https://github.com/stan-alam/REST_workSpace/blob/develop/API_Pttrns/images/02/APIpattrns02%20-%20page%201.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/REST_workSpace/blob/develop/API_Pttrns/images/02/APIpattrns02%20-%20page%202.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/REST_workSpace/blob/develop/API_Pttrns/images/02/APIpattrns02%20-%20page%203.png" width="80%" height="80%">
 </a>
