@@ -1,0 +1,16 @@
+{
+  "error": [
+    {
+      "type": "https://datatracker.ietf.org/doc/html/rfc7807#section-3",
+      "title": "SimpleStorage: [company]",
+      "detail": "Not Found [2258ie4t68jv]",
+      "status": "400",
+      "instance": "http://nannerl.io/2258ie4t68jv",
+      "mamund": {
+        "dt": "2022-07-03T05:21:51.024Z",
+        "app": "WACME-company",
+        "server": "EYC-01"
+      }
+    }
+  ]
+}

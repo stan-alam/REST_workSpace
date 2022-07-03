@@ -1,0 +1,66 @@
+{
+  "home" :
+  {
+    "metadata" :
+    [
+        {
+            "name" : "title"
+            ,"value" : "WACME Company Records"
+          }
+        ,
+        {
+            "name" : "author"
+            ,"value" : "Luke Skywalker"
+          }
+        ,
+        {
+            "name" : "release"
+            ,"value" : "1.0.0"
+          }
+      ],
+      "links" :
+      [
+          {
+              "id" : "self"
+              ,"name" : "self"
+              ,"href" : "http://nannerl.io/"
+              ,"rel" : "self colllection company"
+              ,"tags" : "collection company self home list item"
+              ,"title" : "Self"
+              ,"method" : "GET"
+              ,"properties" :
+          [
+    ]
+          }
+          ,
+          {
+              "id" : "home"
+              ,"name" : "home"
+              ,"href" : "http://nannerl.io/"
+              ,"rel" : "collection company"
+              ,"tags" : "collection company home list item"
+              ,"title" : "Home"
+              ,"method" : "GET"
+              ,"properties" :
+          [
+    ]
+          }
+          ,
+          {
+              "id" : "list"
+              ,"name" : "list"
+              ,"href" : "http://nannerl.io/list/"
+              ,"rel" : "collection company"
+              ,"tags" : "collection company home list item"
+              ,"title" : "List"
+              ,"method" : "GET"
+              ,"properties" :
+          [
+    ]
+          }
+      ],
+      "items" :
+      [
+      ]
+    }
+ }
